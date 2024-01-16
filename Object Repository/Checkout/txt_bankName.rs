@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_bankName</name>
+   <tag></tag>
+   <elementGuidId>ad7a8841-477c-4cb1-8374-ac81d1029edc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-payment/div/div/div/form/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.mb-3.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c75867f4-970f-4f8f-b6cc-f95f327f3923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>bank_name</value>
+      <webElementGuid>44532869-4ca5-4ff6-ae78-c766f62ec79f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Bank Name</value>
+      <webElementGuid>1a88a4b6-ad80-4df1-babb-38db1786fd7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control mb-3 ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>01f380b1-d952-4eb0-b41d-f31601a2f276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-completion-step[1]/app-payment[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 offset-md-3 login-form-1&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[2]/input[@class=&quot;form-control mb-3 ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>112cac70-5c89-4a45-86b2-466f78574b05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-payment/div/div/div/form/div[2]/input</value>
+      <webElementGuid>0fbc7ae1-94aa-4770-ae0f-4fd5abd7fa48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Bank Name']</value>
+      <webElementGuid>a7817153-bef4-485c-b174-f4d9ea30fc8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

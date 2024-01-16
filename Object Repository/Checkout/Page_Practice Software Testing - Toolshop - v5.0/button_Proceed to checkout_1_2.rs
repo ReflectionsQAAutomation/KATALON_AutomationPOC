@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Proceed to checkout_1_2</name>
+   <tag></tag>
+   <elementGuidId>31c1a3af-895a-4cf8-b53c-48038582b896</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-address > div.container.login-container > div.row > div.col-md-6.offset-md-3.login-form-1 > div.float-end > button.btn.btn-success</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5675e3e5-ca5c-485a-aa67-f6662da7bec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>proceed-3</value>
+      <webElementGuid>6579fcd1-a735-433d-b76b-f9678aa4e081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cdbeda36-50d5-4b8b-9645-1a05e3ca2c88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>0fcdf1b7-29e3-4cd3-97c3-a04cfce1936c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proceed to checkout </value>
+      <webElementGuid>fd66f9db-b89b-4a16-ad41-4bdbb60c9f6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-step[3]/app-address[1]/div[@class=&quot;container login-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 offset-md-3 login-form-1&quot;]/div[@class=&quot;float-end&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>eeea3218-95b9-4a48-bbc9-f93e3a886393</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>142e115e-4254-4163-948e-ef7f00ce897b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Address'])[1]/following::button[1]</value>
+      <webElementGuid>26057470-e32e-48a3-adea-0303ab8b3d09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed to checkout'])[2]/following::button[1]</value>
+      <webElementGuid>4e396644-5beb-4fa3-b953-32a5be2b6374</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment'])[2]/preceding::button[1]</value>
+      <webElementGuid>1d2f7e8d-2539-4d6f-af8c-bc175d44d4e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::button[1]</value>
+      <webElementGuid>a8c12bd1-f9fa-42bf-ac69-811354da35c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-address/div/div/div/div/button</value>
+      <webElementGuid>b3ffd80c-7d31-4909-a4ed-753be64b3c04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Proceed to checkout ' or . = 'Proceed to checkout ')]</value>
+      <webElementGuid>20454b05-1248-4def-981b-3875bef3e303</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_Combination Pliers</name>
+   <tag></tag>
+   <elementGuidId>1f6fe82d-d10c-4f41-926d-8b4e368249fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='MightyCraft Hardware'])[1]/following::h5[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>18795877-a6fd-45f5-8d9f-8213680e6113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>product-name</value>
+      <webElementGuid>230f3f56-1331-4354-9e07-93ea459ed922</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>2a84505f-e9bd-4cbc-a140-26a9f6e02bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Combination Pliers </value>
+      <webElementGuid>b051591a-77b0-4324-ba0c-e656cd3c248c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-overview[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;container&quot;]/a[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>d162ad1a-449e-4291-9293-3c563f5ad617</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MightyCraft Hardware'])[1]/following::h5[1]</value>
+      <webElementGuid>e1ac979c-fa2f-47df-8def-5d35c7a2a104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ForgeFlex Tools'])[1]/following::h5[1]</value>
+      <webElementGuid>d5385aa5-29a0-41c2-84f0-b0e02dbbf653</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$14.15'])[1]/preceding::h5[1]</value>
+      <webElementGuid>52631066-87d4-4651-b54b-2f10438c1480</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pliers'])[2]/preceding::h5[1]</value>
+      <webElementGuid>975f6fa5-73f8-4b5c-a68f-d282d63fe563</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Combination Pliers']/parent::*</value>
+      <webElementGuid>9ce6e1c7-f634-4325-be37-a1cea23c2cf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>8938cf7f-63a6-448f-aed1-83f9c8a978f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = ' Combination Pliers ' or . = ' Combination Pliers ')]</value>
+      <webElementGuid>9c4ff176-1b9e-4b9f-81a1-7549cdc1f10c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

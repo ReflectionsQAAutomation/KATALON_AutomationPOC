@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5_Product Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7819ce86-e26e-4df9-95e7-88c7a2137429</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>787a0abd-8952-45a0-90a8-7efb69241519</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/ProductCheckoutData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>787a0abd-8952-45a0-90a8-7efb69241519</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Product Name</value>
+      <variableId>100a5e35-841d-4675-a652-c756c0d74e99</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>100a5e35-841d-4675-a652-c756c0d74e99</id>
+      <masked>false</masked>
+      <name>ProductName</name>
+   </variable>
+</TestCaseEntity>

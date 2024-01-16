@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cart_ItemProductName</name>
+   <tag></tag>
+   <elementGuidId>fc98f10a-ff33-47e5-9f25-620001216f99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td[6]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span[class=&quot;product-title&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>94ad3cc0-fcc1-4d83-9210-1005434b2947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-remove</value>
+      <webElementGuid>c5d544dd-a9ee-4054-8f0a-ed896c8fc2b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-step[1]/app-cart[1]/div[1]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[2]/td[@class=&quot;col-md-1 align-middle&quot;]/a[@class=&quot;btn btn-danger&quot;]/i[@class=&quot;fa fa-remove&quot;]</value>
+      <webElementGuid>404fc2bc-fffc-4c22-869d-eaff60dd891d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[6]/a/i</value>
+      <webElementGuid>e32028ec-5bdc-40d7-a60f-65a84196b6dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

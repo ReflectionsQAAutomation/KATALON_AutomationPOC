@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_invoice</name>
+   <tag></tag>
+   <elementGuidId>199bdc29-eb55-4ae7-9ea8-94c1fc265c72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#order-confirmation</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='order-confirmation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>86a473fb-09e7-49de-86e4-fe595714b6c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>order-confirmation</value>
+      <webElementGuid>649cdde9-f4a8-4f96-b838-973713b99177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-6 offset-md-3 login-form-1</value>
+      <webElementGuid>283051e1-69fa-4f73-85f8-b3c873c7a894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Thanks for your order! Your invoice number is INV-2023000005. </value>
+      <webElementGuid>6934ba59-157e-467e-9fab-fa0e1ddc016d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order-confirmation&quot;)</value>
+      <webElementGuid>c6a6657a-892d-4514-a730-8af39e2ff8d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='order-confirmation']</value>
+      <webElementGuid>868e1629-dde2-4ea5-a22b-c027b535bbaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed to checkout'])[3]/following::div[3]</value>
+      <webElementGuid>1809c53e-f9d7-4b6a-a1f4-6390cc5ac3e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Address'])[1]/following::div[9]</value>
+      <webElementGuid>507dd77a-7b1e-48b4-b1f5-85fdd3bfda23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub repo'])[1]/preceding::div[1]</value>
+      <webElementGuid>9a53832b-67cd-4cd1-aeba-35265feca3ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thanks for your order! Your invoice number is']/parent::*</value>
+      <webElementGuid>04704b16-3272-48de-b2ea-60384c7f4b49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-payment/div/div/div</value>
+      <webElementGuid>a6599a15-086c-4e48-b42e-0cce3ae0a176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'order-confirmation' and (text() = ' Thanks for your order! Your invoice number is INV-2023000005. ' or . = ' Thanks for your order! Your invoice number is INV-2023000005. ')]</value>
+      <webElementGuid>deeaa413-e872-4fdf-a540-0b80763c56fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

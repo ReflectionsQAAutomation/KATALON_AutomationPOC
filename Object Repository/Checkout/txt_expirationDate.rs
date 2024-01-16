@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_expirationDate</name>
+   <tag></tag>
+   <elementGuidId>d0d0ac07-ee15-487a-a7e8-be0b0459e0bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.mb-3.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5d769927-0059-4ec6-b0bd-7891e2dacd3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>expiration_date</value>
+      <webElementGuid>c2de8993-9d3b-4256-af09-a5ff170c9537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Expiration Date</value>
+      <webElementGuid>b1b8b48c-3f71-46ce-8496-abf4a7de7873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control mb-3 ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>aac80b04-1134-4ead-97b5-fd320d35f120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-completion-step[1]/app-payment[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 offset-md-3 login-form-1&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[2]/input[@class=&quot;form-control mb-3 ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>7a461b6c-26b2-402f-9f30-730484bcd708</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[2]</value>
+      <webElementGuid>b8c844ef-7f8f-4854-ae16-c0875a8db5c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Expiration Date']</value>
+      <webElementGuid>6c8b3dc2-0161-4896-9ec5-1eb6be8f3764</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

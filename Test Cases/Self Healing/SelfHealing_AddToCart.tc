@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC</name>
+   <name>SelfHealing_AddToCart</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cfbffb22-c870-4647-982d-1f72f6536793</testCaseGuid>
+   <testCaseGuid>68b7927e-5357-4647-bf42-9afe5efaec98</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_validationCode</name>
+   <tag></tag>
+   <elementGuidId>67f26ee3-638b-4883-8eac-6c43aaee3d91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>4a05b2d3-f4be-4dc3-be55-04531c7b0609</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>validation_code</value>
+      <webElementGuid>21f3c293-b184-4b89-858b-8bb5cc072601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>validation_code_help</value>
+      <webElementGuid>22cb7bae-2cbc-49dc-ab96-9dae56217846</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Validation Code</value>
+      <webElementGuid>fba6a1c6-f436-474a-bb98-b3e9726e16ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>7181a11f-4c0f-4e9a-b457-c1fd57103937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-completion-step[1]/app-payment[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 offset-md-3 login-form-1&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[2]/input[@class=&quot;form-control ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>86e427e8-4318-4019-b05b-31787371bad1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[2]</value>
+      <webElementGuid>2ce4ff0f-c7aa-4f45-ab02-0c1425a7f805</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Validation Code']</value>
+      <webElementGuid>0c3b61c3-3e8a-45d8-a30a-fd344805ad42</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

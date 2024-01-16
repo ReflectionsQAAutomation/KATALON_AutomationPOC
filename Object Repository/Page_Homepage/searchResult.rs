@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchResult</name>
+   <tag></tag>
+   <elementGuidId>105e7c5b-a2df-4ff2-9ae7-64acfa2dd2c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-test=&quot;product-name&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Searched for: pliers'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Combination Pliers $14.15 Pliers $12.01 Long Nose Pliers Out of stock$14.24 Slip Joint Pliers $9.17' or . = ' Combination Pliers $14.15 Pliers $12.01 Long Nose Pliers Out of stock$14.24 Slip Joint Pliers $9.17')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9d40949-087d-4ce5-b740-c8966a7838e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>container</value>
+      <webElementGuid>bfc17e84-971b-4faf-9d6c-2dc49f2dfec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>search_completed</value>
+      <webElementGuid>e4621f83-d45c-439c-8222-af770b10302c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Combination Pliers $14.15 Pliers $12.01 Long Nose Pliers Out of stock$14.24 Slip Joint Pliers $9.17</value>
+      <webElementGuid>08d7ba86-442c-4231-9018-12388466b37c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-overview[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;container&quot;]</value>
+      <webElementGuid>2c142614-ff33-4544-b106-cec6329b0000</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Searched for: pliers'])[1]/following::div[1]</value>
+      <webElementGuid>43dc0e5a-8598-4a49-9952-579f95b8d89a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand name 2'])[1]/following::div[2]</value>
+      <webElementGuid>7ef2906c-94c6-42da-a137-27d722d7585c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div</value>
+      <webElementGuid>489f64f1-d632-46e8-906b-ae158ad9b227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Combination Pliers $14.15 Pliers $12.01 Long Nose Pliers Out of stock$14.24 Slip Joint Pliers $9.17' or . = ' Combination Pliers $14.15 Pliers $12.01 Long Nose Pliers Out of stock$14.24 Slip Joint Pliers $9.17')]</value>
+      <webElementGuid>cc99abed-0e7d-469d-9d48-5d992948c2a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

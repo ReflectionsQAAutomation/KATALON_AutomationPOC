@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_EmailValidationMessge</name>
+   <tag></tag>
+   <elementGuidId>429bdb18-0699-4e7e-a1c5-919e3b8b1e44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#email_alert > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='email_alert']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4b05adf5-2cc6-48b3-8342-c39638ab8aac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email is required</value>
+      <webElementGuid>d072a62b-1e10-49fc-9c4d-0bdc890f4872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;email_alert&quot;)/div[1]</value>
+      <webElementGuid>40bc1d8a-f6fe-4367-ac61-9224522ab0d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='email_alert']/div</value>
+      <webElementGuid>0b432138-8351-4153-86e8-25beb0e23fda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::div[2]</value>
+      <webElementGuid>306bef7e-8825-473b-8c70-8aad7c6eff55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last name is required'])[1]/following::div[3]</value>
+      <webElementGuid>7f43f8a4-b6c5-4c0c-98ad-2e70770bb106</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject'])[1]/preceding::div[1]</value>
+      <webElementGuid>db168e54-8682-4088-b6a4-a65eb7e9c0b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject is required'])[1]/preceding::div[2]</value>
+      <webElementGuid>e5fbe1d9-ffcf-47e7-900d-f46111456af0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email is required']/parent::*</value>
+      <webElementGuid>b1248ce2-4715-47cc-91e1-fa2a81e27514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div</value>
+      <webElementGuid>847c1120-e5e0-4c39-a644-b1291dcc0069</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email is required' or . = 'Email is required')]</value>
+      <webElementGuid>735a9088-1b07-44e8-9c7f-3cb6a027d28f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

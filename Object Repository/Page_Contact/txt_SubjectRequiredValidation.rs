@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_SubjectRequiredValidation</name>
+   <tag></tag>
+   <elementGuidId>2ffdfb0b-8341-4148-8697-4f75e5c8790d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#subject_alert > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='subject_alert']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>337a94f1-1f8d-48e1-a7b0-dfbdbebaf920</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Subject is required</value>
+      <webElementGuid>45a34a10-7227-412f-a791-b4d15a007497</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subject_alert&quot;)/div[1]</value>
+      <webElementGuid>68c81a25-e048-477d-b112-4890b518cae8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='subject_alert']/div</value>
+      <webElementGuid>e43c4bfe-0c05-4fc9-865d-acf416def95d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject'])[1]/following::div[2]</value>
+      <webElementGuid>ffcb8ca7-0d85-4e0a-a512-fa2007c6b518</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email is required'])[1]/following::div[5]</value>
+      <webElementGuid>396b6b31-3f3b-4347-b304-07eab999f564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/preceding::div[1]</value>
+      <webElementGuid>3ba6cf2f-14af-43df-930a-82d9c1d45675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message is required'])[1]/preceding::div[2]</value>
+      <webElementGuid>7822c3bf-2f73-488b-b145-b65a51da8cf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Subject is required']/parent::*</value>
+      <webElementGuid>c12ff192-f8d0-4698-85a8-22afc76113a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div</value>
+      <webElementGuid>07c7dca8-f31b-4bab-9346-15f6c7cab040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Subject is required' or . = 'Subject is required')]</value>
+      <webElementGuid>9f9658c6-cd5b-44a9-a392-b1c622122a57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

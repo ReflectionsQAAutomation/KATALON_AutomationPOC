@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6_ProductCheckout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12ecf3ae-8980-4dda-b872-d0250d44ac85</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>787a0abd-8952-45a0-90a8-7efb69241519</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/ProductCheckoutData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>787a0abd-8952-45a0-90a8-7efb69241519</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PaymentMethod</value>
+      <variableId>28595ec3-6c0e-4c48-8649-82c044ad038d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28595ec3-6c0e-4c48-8649-82c044ad038d</id>
+      <masked>false</masked>
+      <name>PaymentMethod</name>
+   </variable>
+</TestCaseEntity>

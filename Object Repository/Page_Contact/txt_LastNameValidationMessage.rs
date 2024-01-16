@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_LastNameValidationMessage</name>
+   <tag></tag>
+   <elementGuidId>35dea186-c7e3-439c-870f-74a671db64f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#last_name_alert > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='last_name_alert']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>644a1000-1dff-4045-a3e8-fead0fd2bbb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Last name is required</value>
+      <webElementGuid>5400a670-3613-4c6c-8ad3-5cca1d998a09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;last_name_alert&quot;)/div[1]</value>
+      <webElementGuid>715198ec-c9e8-4150-a74a-b051757c0c8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='last_name_alert']/div</value>
+      <webElementGuid>5b598c2c-b197-45a4-b694-486fe896b580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last name'])[1]/following::div[2]</value>
+      <webElementGuid>9a8fc705-b8ac-453b-845f-c49721bdd630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First name is required'])[1]/following::div[4]</value>
+      <webElementGuid>01a7719f-1ed8-4cb5-89f1-a8cc1edc28f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::div[1]</value>
+      <webElementGuid>bffb828a-e10a-434d-b94e-ca0173c508d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email is required'])[1]/preceding::div[1]</value>
+      <webElementGuid>a7e70e7d-c8d1-4a5e-a172-8907c148a136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Last name is required']/parent::*</value>
+      <webElementGuid>4d45ddd6-3e86-46d0-8368-6e8f9ff040a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div[2]/div</value>
+      <webElementGuid>b768e7e5-a3e8-4316-9db7-2ddc5a2f2050</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Last name is required' or . = 'Last name is required')]</value>
+      <webElementGuid>eb373f38-5d6e-487d-a238-96e9bd4f796c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

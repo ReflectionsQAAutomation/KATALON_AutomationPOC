@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_RegisterYourAccount</name>
+   <tag></tag>
+   <elementGuidId>cd805693-9263-4a02-8c86-164db290d5ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub repo'])[1]/preceding::a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-test=&quot;register-link&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>770bb122-8f79-4a85-bf0f-cb5e7509586c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>register-link</value>
+      <webElementGuid>85415a03-8c29-4243-ad2a-9fa8337296fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>/auth/register</value>
+      <webElementGuid>ad2e06ae-0be3-45be-a9ef-ff8c2678516f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/auth/register</value>
+      <webElementGuid>b7571c8e-4813-40a3-9049-f34d52d406e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register your account</value>
+      <webElementGuid>c29cd1bd-538c-46f2-8a1e-ab8dce0b21de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-login[1]/div[@class=&quot;container auth-container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-6 auth-form&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;input-group mb-3&quot;]/p[1]/a[1]</value>
+      <webElementGuid>534f6dac-a26b-43e7-926e-390fc9dac928</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Register your account')]</value>
+      <webElementGuid>a7c5f7f7-a85a-4b20-aa3e-411e85527aa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or use'])[1]/following::a[1]</value>
+      <webElementGuid>f41d8ab6-358e-459b-8ef8-65d63ba89c1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in with Google'])[1]/following::a[1]</value>
+      <webElementGuid>d2558cbe-ae1f-43d3-b043-31f2b33006cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your Password?'])[1]/preceding::a[1]</value>
+      <webElementGuid>51bff6bf-3920-4264-82fb-d2d2f62c0b45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub repo'])[1]/preceding::a[2]</value>
+      <webElementGuid>a7ad52ae-047f-40ac-973c-4f181a6f30b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Register your account']/parent::*</value>
+      <webElementGuid>72f3f596-bdd8-4bb4-9b74-bbe89eca82ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#/auth/register')]</value>
+      <webElementGuid>e3dad692-f984-4f71-9e80-f28a4457eb28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>304f6f33-de84-4d02-bd27-9b9163f37033</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#/auth/register' and (text() = 'Register your account' or . = 'Register your account')]</value>
+      <webElementGuid>fd6e2e44-2fad-434d-8ba1-a7a5e5eb3559</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

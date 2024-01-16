@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_Combination Pliers</name>
+   <tag></tag>
+   <elementGuidId>d4ae7ef1-bb5c-4736-82ee-5bd62841c5a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand name 2'])[1]/following::h5[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>bcb35e7c-e60e-45c2-8f78-d37e4923d405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test</name>
+      <type>Main</type>
+      <value>product-name</value>
+      <webElementGuid>1677acd0-e722-4919-ba4f-4a8644d6af7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>0c22a72a-1904-4e82-ac75-2a2dd79c6540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Combination Pliers </value>
+      <webElementGuid>687c0ed8-1f5d-43f9-aeee-d64caeebd0b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-overview[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/div[@class=&quot;container&quot;]/a[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>840efae8-1f1e-4800-8e54-cf434048e51e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand name 2'])[1]/following::h5[1]</value>
+      <webElementGuid>30f6ef49-9c5d-46e7-a600-c1a279ddc989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand name 1'])[1]/following::h5[1]</value>
+      <webElementGuid>2ee42169-e745-4861-a595-16381d9e1f29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$14.15'])[1]/preceding::h5[1]</value>
+      <webElementGuid>07c4efb2-a667-402f-8383-05a25b19d98b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pliers'])[2]/preceding::h5[1]</value>
+      <webElementGuid>84777ac6-28d9-4960-9bd2-c70b1c48daf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Combination Pliers']/parent::*</value>
+      <webElementGuid>10eec24c-6589-47a3-b682-642cda0c0ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>ccf416a5-c6de-45b2-a387-e51cec81dea1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = ' Combination Pliers ' or . = ' Combination Pliers ')]</value>
+      <webElementGuid>a4f13706-872d-48bd-95ff-7b8b1db4940d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

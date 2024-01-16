@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_MessageRequiredValidation</name>
+   <tag></tag>
+   <elementGuidId>f3279737-b289-4a97-975c-f2d15b29dd48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#message_alert > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='message_alert']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aceb2471-081e-4b7d-a357-bffe94bd30f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Message is required</value>
+      <webElementGuid>05965027-a2b6-49df-975d-3bfe9dd92df3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;message_alert&quot;)/div[1]</value>
+      <webElementGuid>80c6f856-6921-485d-a409-d5ffdd308a56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='message_alert']/div</value>
+      <webElementGuid>7e2dcde3-2fa0-49d2-b001-cda2870dfb24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/following::div[3]</value>
+      <webElementGuid>237b0f2f-a3cb-40b6-a1c1-27e8b77a99b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject is required'])[1]/following::div[4]</value>
+      <webElementGuid>66b20683-0dad-47a2-8517-fbde30db27b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachment'])[1]/preceding::div[1]</value>
+      <webElementGuid>77189ee5-a1fb-4a45-b75e-90b6e7cc2c53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Message is required']/parent::*</value>
+      <webElementGuid>03a8b674-5091-4765-844b-a337d8ed0170</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>4f6f4168-3b28-407e-a469-267a9501cef2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Message is required' or . = 'Message is required')]</value>
+      <webElementGuid>5c1268f2-9ff2-4ca6-88cd-8dbdbb13fd5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

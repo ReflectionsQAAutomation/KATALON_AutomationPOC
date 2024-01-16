@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_CVV</name>
+   <tag></tag>
+   <elementGuidId>92ac380c-95e2-4faf-9f46-f2e5fbd2fbd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.ng-dirty.ng-touched.ng-valid > div:nth-of-type(2) > input.form-control.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6c21c05f-71a5-450c-a4f1-aa4f32c98767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>cvv</value>
+      <webElementGuid>51f51f57-de8f-4226-8881-7cf209133333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cvv_help</value>
+      <webElementGuid>135a4aed-28d5-4e22-a2c1-b87a77b9e40b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>CVV</value>
+      <webElementGuid>93bc1c71-7b81-4172-a460-4e69e03c02f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>608d0ace-3347-412f-8786-b6ffd199c248</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-completion-step[1]/app-payment[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 offset-md-3 login-form-1&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[2]/input[@class=&quot;form-control ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>83312311-483c-44f4-bd56-722cad889b10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[3]</value>
+      <webElementGuid>ccacfd4c-2cd6-40e6-ae60-779cab9b373d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'CVV']</value>
+      <webElementGuid>a1edaefe-ddfa-4eab-9b45-bec419ded4e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

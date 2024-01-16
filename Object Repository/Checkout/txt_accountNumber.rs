@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_accountNumber</name>
+   <tag></tag>
+   <elementGuidId>ecbddb37-3ff7-4535-a328-ccde47685014</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>33bf92ea-69eb-449a-833d-138b9f12923f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>account_number</value>
+      <webElementGuid>2f40775e-fe85-4ef2-b46b-101719eee249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>account_number_help</value>
+      <webElementGuid>18a290fb-8353-4d25-9d97-1d8fd8fb0ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Account Number</value>
+      <webElementGuid>94e8aaaa-e729-40d2-8077-6050a28998e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>4037495b-144c-49bc-9d1d-1b03d3348d80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[1]/aw-wizard[@class=&quot;horizontal&quot;]/div[@class=&quot;wizard-steps horizontal&quot;]/aw-wizard-completion-step[1]/app-payment[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 offset-md-3 login-form-1&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[2]/input[@class=&quot;form-control ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>7ecb70cb-f11f-45bf-996a-d902d32ddc79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[3]</value>
+      <webElementGuid>03df9ce4-176c-4503-a045-eca81d23775a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Account Number']</value>
+      <webElementGuid>a44f190e-bc16-45bf-a0b7-7f3b9601a835</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
