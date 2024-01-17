@@ -7,7 +7,6 @@ pool:
 
 steps:
 - task: katalonTask@1
-  displayName: 'Execute Katalon Studio project'
   inputs:
-    version: '8.2.5'
-    executeArgs: 'katalonc -noSplash -runMode=console  -retry=0 -testSuitePath="Test Suites/Smoke_EndToEnd" -browserType="Chrome" -executionProfile="default" -apiKey="8fdc1673-2d9d-46ac-a1ba-f74b2013368f" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+    version: '8.6.8'
+    executeArgs: '-retry=0 -testSuitePath="Test Suites/Smoke_EndToEnd" -browserType="Chrome" -executionProfile="default" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
