@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>4991e6ff-2c1a-4b62-963a-3f956adc4cd9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/UI/TC2_ProductDeletion</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -52,7 +52,7 @@
    <testCaseLink>
       <guid>3bfc94b4-207a-4bde-984c-3752939ab1c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/UI/TC1_ProductPurchase</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
