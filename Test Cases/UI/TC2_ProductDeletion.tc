@@ -3,6 +3,16 @@
    <description></description>
    <name>TC2_ProductDeletion</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>10</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>4e129740-adce-4fcf-a9cb-517e8bd00176</testCaseGuid>
    <testDataLinks>

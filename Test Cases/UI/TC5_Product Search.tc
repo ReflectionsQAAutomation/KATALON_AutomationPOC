@@ -3,6 +3,16 @@
    <description></description>
    <name>TC5_Product Search</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>7</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>7819ce86-e26e-4df9-95e7-88c7a2137429</testCaseGuid>
    <testDataLinks>

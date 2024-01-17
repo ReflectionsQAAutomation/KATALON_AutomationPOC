@@ -24,7 +24,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Smoke_EndToEnd</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>

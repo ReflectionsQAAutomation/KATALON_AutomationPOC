@@ -3,6 +3,16 @@
    <description></description>
    <name>TC4_Login</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>6</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>f2b3d864-d3b3-4c7f-bdb1-8671cf356eed</testCaseGuid>
    <testDataLinks>

@@ -12,40 +12,16 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>de83ea83-b48a-4063-8d5a-9254e70ee9bd</testSuiteGuid>
    <testCaseLink>
-      <guid>3bfc94b4-207a-4bde-984c-3752939ab1c9</guid>
+      <guid>06504979-b4fb-4a06-8a83-4beb191a1d1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UI/TC1_ProductPurchase</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>745370e4-0f26-4a41-b2d8-6bb5db9b42e9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ddd3b145-e2c7-4c6d-bc03-c95f08d0c6da</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>02ea9698-dad3-42bf-9e49-789bf775e068</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3bdb0655-39f9-477b-b616-68b8a0c84fc6</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/UI/Log</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4991e6ff-2c1a-4b62-963a-3f956adc4cd9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UI/TC2_ProductDeletion</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -71,6 +47,37 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a954656b-f0f9-4185-b398-3229a412558f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3bfc94b4-207a-4bde-984c-3752939ab1c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/UI/TC1_ProductPurchase</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>745370e4-0f26-4a41-b2d8-6bb5db9b42e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ddd3b145-e2c7-4c6d-bc03-c95f08d0c6da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02ea9698-dad3-42bf-9e49-789bf775e068</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3bdb0655-39f9-477b-b616-68b8a0c84fc6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

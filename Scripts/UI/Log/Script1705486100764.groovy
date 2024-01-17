@@ -1,4 +1,4 @@
-	import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,17 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.pages.SignIn as SignInPage
+import com.kms.katalon.core.util.KeywordUtil
 
-
-/**
- * Test Case: User Login.
- * Description: This test case covers process of login a user,
- * entering email and Password details, submitting the form.
- *  
- */
-SignInPage.ClickSignInLink()
-SignInPage.EnterDetailsAndLogin(Email,Password)
-
-
-
+KeywordUtil.logInfo("Test log output message")

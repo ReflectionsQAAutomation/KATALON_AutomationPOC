@@ -3,6 +3,16 @@
    <description></description>
    <name>TC1_ProductPurchase</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>9</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>b07a8fe8-3dae-4309-b6bf-1db443c130e8</testCaseGuid>
    <testDataLinks>

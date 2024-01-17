@@ -27,6 +27,7 @@ import com.pages.SignOut as SignOutPage
  * Description: This testcase covers the End to end flow of user searching for a product,adding to cart and checking out 
  *
  */
+
 SignInPage.ClickSignInLink()
 SignInPage.EnterDetailsAndLogin(Email, Password)
 HomePage.ClickHomeButton()
