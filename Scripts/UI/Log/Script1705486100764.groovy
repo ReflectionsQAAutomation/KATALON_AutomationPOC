@@ -19,3 +19,4 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
 KeywordUtil.logInfo("***********Check Test log output message******************")
+KeywordUtil.logInfo("***********testTest log output message******************")
