@@ -9,7 +9,7 @@
    <dataFileGUID>e5ad2458-7111-4eaf-82e0-80d2e8101cb1</dataFileGUID>
    <dataSourceUrl>data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>ProductCheckout</sheetName>

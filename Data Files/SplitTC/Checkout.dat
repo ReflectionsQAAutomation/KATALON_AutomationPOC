@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>3ef182d4-a169-4c2f-a68b-a82efd62d23f</dataFileGUID>
-   <dataSourceUrl>C:\Users\roshnig\Katalon Studio\TestAutomationPOC\Data Files\SplitTCData.xlsx</dataSourceUrl>
+   <dataSourceUrl>SplitTCData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
