@@ -30,45 +30,45 @@ public class Home {
 	}
 
 
-		/**
-		 * Method to enter the product name and click on search button
-		 * @param :Product Name
-		 *
-		 */
-		def static void ProductSeach(productName) {
-			int aScreen = WebUI.getPageWidth()
-			println(aScreen)
-			if (aScreen < 1440) {
-				println('Entered the resposive web ')
-				WebUI.delay(5)
-				println('before clicking Filters ')
-				WebUI.click(findTestObject('Page_Homepage/a_Filters'))
-			}
-			WebUI.setText(findTestObject('Object Repository/Page_Homepage/input_SearchBox'), productName)
-			WebUI.click(findTestObject('Object Repository/Page_Homepage/buttonSearch'))
+	/**
+	 * Method to enter the product name and click on search button
+	 * @param :Product Name
+	 *
+	 */
+	def static void ProductSeach(productName) {
+		int aScreen = WebUI.getPageWidth()
+		println(aScreen)
+		if (aScreen < 1000) {
+			println('Entered the resposive web ')
+			WebUI.delay(5)
+			println('before clicking Filters ')
+			WebUI.click(findTestObject('Page_Homepage/a_Filters'))
 		}
+		WebUI.setText(findTestObject('Object Repository/Page_Homepage/input_SearchBox'), productName)
+		WebUI.click(findTestObject('Object Repository/Page_Homepage/buttonSearch'))
+	}
 
-		/**
-		 * Method to check the search results in the home page contain the passed product name
-		 * @param :Product Name
-		 *
-		 */
-		def static void CheckProductSearchResult(productName) {
-			TestObject testObj = findTestObject('Object Repository/Page_Homepage/searchResult')
-			List<WebElement> searchData = WebUI.findWebElements(testObj, 10)
-			for (WebElement item : searchData) {
-				println('chartName:++++++' + item.getText())
+	/**
+	 * Method to check the search results in the home page contain the passed product name
+	 * @param :Product Name
+	 *
+	 */
+	def static void CheckProductSearchResult(productName) {
+		TestObject testObj = findTestObject('Object Repository/Page_Homepage/searchResult')
+		List<WebElement> searchData = WebUI.findWebElements(testObj, 10)
+		for (WebElement item : searchData) {
+			println('chartName:++++++' + item.getText())
 
-				WebUI.verifyMatch(item.getText(), ('^.*' + productName) + '.*', true, FailureHandling.STOP_ON_FAILURE)
-			}
-		}
-
-		/**
-		 * Method to click on the first product after the search
-		 * @param :Product Name
-		 *
-		 */
-		def static void ClickProductName(productName) {
-			WebUI.click(findTestObject('Object Repository/Page_Homepage/searchResult'))
+			WebUI.verifyMatch(item.getText(), ('^.*' + productName) + '.*', true, FailureHandling.STOP_ON_FAILURE)
 		}
 	}
+
+	/**
+	 * Method to click on the first product after the search
+	 * @param :Product Name
+	 *
+	 */
+	def static void ClickProductName(productName) {
+		WebUI.click(findTestObject('Object Repository/Page_Homepage/searchResult'))
+	}
+}
