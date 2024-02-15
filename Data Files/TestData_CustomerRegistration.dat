@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>eae8492c-e469-427f-aadf-065f3efcd053</dataFileGUID>
-   <dataSourceUrl>D:/a/1/s/KATALON_AutomationPOC.prj/data.xlsx</dataSourceUrl>
+   <dataSourceUrl>data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
