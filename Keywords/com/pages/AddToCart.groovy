@@ -28,8 +28,8 @@ public class AddToCart {
 	//method to add the product to cart and checking the success message
 	def static void AddtoCartButton() {
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Add to cart'))
-		WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/div_Product added to shopping cart'),
-				'Product added to shopping cart.')
+		WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/div_Product added to shopping cart'),'Product added to shopping cart.')
+		WebUI.delay(5)
 	}
 
 	//method to navigate to the shopping cart
@@ -56,6 +56,7 @@ public class AddToCart {
 				println('---------------Ethil keri---------')
 				println(indx)
 				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/cart_ItemCloseButton', ['index' : indx]))
+				break;
 			}
 			indx++
 		}

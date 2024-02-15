@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarSupportedContent']/ul/li[4]/a</value>
+         <value>//a[@data-test='nav-sign-in']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5b2f470c-994d-48ca-b9c1-cfcf32640e19</webElementGuid>
+      <webElementGuid>5d7010ae-2aed-40f7-b503-80d1688dd91a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>nav-sign-in</value>
-      <webElementGuid>76c80db9-4ea4-4f6c-93ac-a7b5663eb998</webElementGuid>
+      <webElementGuid>4e32ffc2-7da0-4d36-943b-e8d84ffbc685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>routerlink</name>
       <type>Main</type>
       <value>/auth/login</value>
-      <webElementGuid>130838f6-6c67-40bf-9093-00a3cd1dfbc0</webElementGuid>
+      <webElementGuid>410e2313-5b4c-45e1-904a-bc3217f445c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>62791b7b-a75a-4702-b7de-010a2d676501</webElementGuid>
+      <webElementGuid>167dd28c-2a3b-4864-b8c2-ae893b04e1b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#/auth/login</value>
-      <webElementGuid>da4ac6f1-3f20-48b6-918f-12a64e685c12</webElementGuid>
+      <webElementGuid>8b78d674-8120-4715-8d5c-500ce945e639</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign in</value>
-      <webElementGuid>54153adf-1db7-46cb-b5b9-698a31fcdb4d</webElementGuid>
+      <webElementGuid>a3248e43-a4c8-4251-8b75-1ce243f38772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav ms-auto mb-2 mb-lg-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>6fa28799-a003-4079-8588-8989faa19ed7</webElementGuid>
+      <webElementGuid>3b7a1693-18ab-4da1-a7e3-1490ca927623</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/ul/li[4]/a</value>
-      <webElementGuid>8a47382e-5a5a-4c80-8055-638c7ee93052</webElementGuid>
+      <webElementGuid>867df096-87f0-449e-a665-295f866fb148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign in')]</value>
-      <webElementGuid>7d580a55-4e46-4f70-93ed-04413f187428</webElementGuid>
+      <webElementGuid>6ddd5a39-9008-422c-a6f5-95af4193d8e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::a[1]</value>
-      <webElementGuid>c19f522a-32ae-4b83-8c46-9ed95b2b7154</webElementGuid>
+      <webElementGuid>757cfd94-de86-4169-af49-77c6f7969ce7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rentals'])[1]/following::a[2]</value>
-      <webElementGuid>2bbebb50-7cce-4215-8985-2bc0ad58f2c2</webElementGuid>
+      <webElementGuid>ba96467a-7eeb-475c-ad03-fd50c4d5f090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/preceding::a[1]</value>
-      <webElementGuid>85994eb9-ca9d-4c46-a7ac-1dc615d30cd4</webElementGuid>
+      <webElementGuid>77c437d0-d3b0-4da1-b108-f4810970d2c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
-      <webElementGuid>36fde030-ea1a-4429-b2f6-56d3fa624f72</webElementGuid>
+      <webElementGuid>e86a3aaf-e30a-40e6-8f52-53c1f2a9dfed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#/auth/login')]</value>
-      <webElementGuid>66c4886c-afda-4b73-becf-44544551ea93</webElementGuid>
+      <webElementGuid>239fe6a8-9e83-4016-8d21-0fdd27abaa55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a</value>
-      <webElementGuid>e84f37c2-7818-4b66-8259-d0c19ef6430e</webElementGuid>
+      <webElementGuid>948608b6-fc16-4f92-b5f3-4a2c8c17f8c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#/auth/login' and (text() = 'Sign in' or . = 'Sign in')]</value>
-      <webElementGuid>460da123-b6cf-4c3f-a54e-7acb414bee91</webElementGuid>
+      <webElementGuid>64095d38-4788-4568-89ee-cbd1973e91a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,6 +21,7 @@ import com.pages.Home as HomePage
 import com.pages.AddToCart as AddToCartPage
 import com.pages.Checkout as CheckoutPage
 import com.pages.SignOut as SignOutPage
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 /**
  * Test Case: User adding the product to cart and checkout
@@ -40,5 +41,4 @@ SignInPage.ClickSignInCheckoutButton()
 CheckoutPage.AddressProceedToCheckoutButton()
 CheckoutPage.PaymentAndDetails(PaymentMethod)
 SignOutPage.Sign_Out()
-
 

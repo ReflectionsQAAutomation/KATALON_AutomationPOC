@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "18F4E028835DC08A74F10011E38A097B",
+  "keywordClasses": [
+    {
+      "name": "com.pages.support",
+      "keywordMethods": [
+        {
+          "name": "checkResponsiveAndClickToggle",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

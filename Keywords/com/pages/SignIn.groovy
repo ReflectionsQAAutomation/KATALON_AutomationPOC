@@ -30,15 +30,41 @@ public class SignIn {
 	 *
 	 */
 	def static void EnterDetailsAndLogin(Email,Password) {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Page_SignIn/txtBox_email'), FailureHandling.STOP_ON_FAILURE)
+		println('Login Page')
 		WebUI.setText(findTestObject('Object Repository/Page_SignIn/txtBox_email'), Email)
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_SignIn/txtBox_Password'), Password)
 		WebUI.click(findTestObject('Object Repository/Page_SignIn/btnLogin'))
+		println('Login Clicked')
+		WebUI.delay(5)
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_SignIn/txt_LoginMessage'), 'Here you can manage your profile, favorites and orders.')
+
 	}
 
 	//method to click on the SignIn link
 	def static void ClickSignInLink() {
-		WebUI.click(findTestObject('Object Repository/Page_SignIn/menu_Sign in'))
+		int aScreen = WebUI.getPageWidth()
+		println(aScreen)
+		if (aScreen < 1440) {
+			println('Entered the resposive web ')
+			WebUI.delay(5)
+			println('before toggle ')
+			try {
+				WebUI.click(findTestObject('Page_Homepage/span_Hand Tools_navbar-toggler-icon'))
+			} catch(Exception e) {
+				println(e)
+			}
+			println('clicked toggle icon ')
+			WebUI.delay(5)
+			WebUI.click(findTestObject('Object Repository/Page_SignIn/menu_Sign in'))
+			println('Clicked in Sign In')
+		}
+		else
+		{
+			WebUI.delay(5)
+			WebUI.click(findTestObject('Object Repository/Page_SignIn/menu_Sign in'))
+			WebUI.delay(3)
+		}
 	}
 
 	//method to click on checkout and proceed button in signIn page

@@ -12,64 +12,82 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>de83ea83-b48a-4063-8d5a-9254e70ee9bd</testSuiteGuid>
    <testCaseLink>
-      <guid>3bfc94b4-207a-4bde-984c-3752939ab1c9</guid>
+      <guid>1f2fcac3-c8fd-436a-b65f-3c8f78a9a78b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UI/TC1_ProductPurchase</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6309791f-7459-481b-8af2-0170d900b70a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ProductCheckoutData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6309791f-7459-481b-8af2-0170d900b70a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
          <variableId>745370e4-0f26-4a41-b2d8-6bb5db9b42e9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6309791f-7459-481b-8af2-0170d900b70a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
          <variableId>ddd3b145-e2c7-4c6d-bc03-c95f08d0c6da</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6309791f-7459-481b-8af2-0170d900b70a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Product Name</value>
          <variableId>02ea9698-dad3-42bf-9e49-789bf775e068</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6309791f-7459-481b-8af2-0170d900b70a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PaymentMethod</value>
          <variableId>3bdb0655-39f9-477b-b616-68b8a0c84fc6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4991e6ff-2c1a-4b62-963a-3f956adc4cd9</guid>
+      <guid>3fc857b2-8810-4de8-8463-a1f44029471e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/UI/TC2_ProductDeletion</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4e5b25f7-4937-4caa-be0a-eb0a006319ce</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ProductDelete</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4e5b25f7-4937-4caa-be0a-eb0a006319ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
          <variableId>98c51f19-e107-4937-bb70-2e432bac5af4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4e5b25f7-4937-4caa-be0a-eb0a006319ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
          <variableId>9324f1fd-99b2-4e23-9e24-81441d7bc92a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4e5b25f7-4937-4caa-be0a-eb0a006319ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AddProducts</value>
          <variableId>8fa5ca2e-1140-41a9-bf11-312d24f9245e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4e5b25f7-4937-4caa-be0a-eb0a006319ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DeleteProduct</value>
          <variableId>a954656b-f0f9-4185-b398-3229a412558f</variableId>
       </variableLink>
    </testCaseLink>

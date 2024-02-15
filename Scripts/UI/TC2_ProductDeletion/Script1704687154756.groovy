@@ -28,28 +28,38 @@ import org.openqa.selenium.WebElement as WebElement
  * Description: This testcase covers the End to end flow of user searching for a product,adding to cart and checking out 
  *
  */
-SignInPage.ClickSignInLink()
-WebUI.delay(3)
-SignInPage.EnterDetailsAndLogin(Email, Password)
+//SignInPage.ClickSignInLink()
+//WebUI.delay(3)
+//SignInPage.EnterDetailsAndLogin(Email, Password)
 //extracting the product details from the excel which is sepearted using commas(,) and adding into the cart
-for ( def ProductName  : Product.split(',')) {
-HomePage.ClickHomeButton()
-HomePage.ProductSeach(ProductName)
-HomePage.ClickProductName(ProductName)
-AddToCartPage.AddtoCartButton()
+CustomKeywords.'com.pages.support.checkResponsiveAndClickToggle'()
+for (def ProductName : Product.split(',')) {
+    HomePage.ClickHomeButton()
+
+    HomePage.ProductSeach(ProductName)
+
+    HomePage.ClickProductName(ProductName)
+
+    AddToCartPage.AddtoCartButton()
+
+    WebUI.delay(5)
 }
 
 AddToCartPage.ClickShoppingCart()
 
 //extracting the product details from the excel which is sepearted using commas(,) and deleting from the cart
-for ( def deleteItem  : DeleteProduct.split(','))
-{
-	AddToCartPage.DeleteItem(deleteItem)
-		 
+for (def deleteItem : DeleteProduct.split(',')) {
+    AddToCartPage.DeleteItem(deleteItem)
+
+    WebUI.delay(20)
 }
 
-WebUI.delay(10)
+//asserting to see if the deleteed items doesnot present in the cart
+TestObject testObj = findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/cart_ItemProductName')
 
+List<WebElement> productAdded = WebUI.findWebElements(testObj, 10)
 
-
+for (WebElement item : productAdded) {
+    assert !(DeleteProduct.contains(item.getText().trim()))
+}
 

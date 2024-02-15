@@ -9,4 +9,14 @@
       <initValue>'https://practicesoftwaretesting.com/#/'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://api.practicesoftwaretesting.com'</initValue>
+      <name>BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CART_ID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

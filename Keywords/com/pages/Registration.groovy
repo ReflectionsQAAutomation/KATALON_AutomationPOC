@@ -26,7 +26,22 @@ public class Registration {
 
 	//method to navigate to the Registration  Page
 	def static void ClickRegistrationLink() {
+		int aScreen = WebUI.getPageWidth()
+		println(aScreen)
+		if (aScreen < 1440) {
+			println('Entered the resposive web ')
+			WebUI.delay(5)
+			println('before toggle ')
+			try {
+				WebUI.click(findTestObject('Page_Homepage/span_Hand Tools_navbar-toggler-icon'))
+			} catch(Exception e) {
+				println(e)
+			}
+			println('clicked toggle icon ')
+			WebUI.delay(5)
+		}
 		WebUI.click(findTestObject('Object Repository/Page_SignIn/menu_Sign in'))
+		println('Clicked in Sign In')
 		WebUI.verifyElementText(findTestObject('Object Repository/Page_Registration/link_RegisterYourAccount'), 'Register your account')
 		WebUI.click(findTestObject('Object Repository/Page_Registration/link_RegisterYourAccount'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Registration/txt_CustomerRegistration'), 0)
@@ -64,7 +79,7 @@ public class Registration {
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/txtBox_Password'), Password)
 	}
 
-	
+
 	//method to click on the Registration Button
 	def static void ClickRegisterButton() {
 		WebUI.click(findTestObject('Object Repository/Page_Registration/buttonRegister'))

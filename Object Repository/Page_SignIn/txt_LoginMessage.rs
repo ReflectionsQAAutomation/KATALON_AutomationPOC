@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>de288dca-946f-49af-9ebd-4b7913b9f04d</webElementGuid>
+      <webElementGuid>9839cc12-a7bb-43c2-ad19-eb642b195c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Here you can manage your profile, favorites and orders.</value>
-      <webElementGuid>2cdcc60e-2f1a-4d6f-a5a4-34b048690234</webElementGuid>
+      <webElementGuid>a9e64e65-982b-406a-97fa-7761f5129f44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;container&quot;]/app-overview[1]/p[1]</value>
-      <webElementGuid>9bef0c66-dd25-4c06-a4e2-b14245e0e854</webElementGuid>
+      <webElementGuid>75c48ead-255a-4a3d-9da0-a38597a28a5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/following::p[1]</value>
-      <webElementGuid>2d151c8c-32cd-4738-9728-6e57ad513b2c</webElementGuid>
+      <webElementGuid>fe3dabdd-79d2-473f-ae13-5c0c22395b61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign out'])[1]/following::p[1]</value>
-      <webElementGuid>5ca32407-a25a-4a53-945e-5e287840fdd8</webElementGuid>
+      <webElementGuid>249cbf63-6f03-477e-ba4e-221ad3f0c182</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Here you can manage your profile, favorites and orders.']/parent::*</value>
-      <webElementGuid>b7dc939e-9b87-49bf-aafc-8f83350b633a</webElementGuid>
+      <webElementGuid>1d60cd5d-3960-47f3-a0aa-b4ee4295a5f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>7e95e531-8bab-4bb2-ae93-22380a709729</webElementGuid>
+      <webElementGuid>852bc9f6-b570-4dbd-93d2-c1546d1d1740</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Here you can manage your profile, favorites and orders.' or . = 'Here you can manage your profile, favorites and orders.')]</value>
-      <webElementGuid>5a3e33af-7f39-4f4b-a96d-d65b2e807506</webElementGuid>
+      <webElementGuid>d6e54ea0-a91c-4deb-a831-1b294a4aee9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
