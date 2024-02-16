@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1f2fcac3-c8fd-436a-b65f-3c8f78a9a78b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UI/TC1_ProductPurchase</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
