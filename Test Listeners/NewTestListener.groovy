@@ -12,9 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-
-import internal.GlobalVariable as GlobalVariable
-
+import com.pages.Home as HomePage
+import groovy.json.JsonSlurper
+import internal.GlobalVariable
+import org.openqa.selenium.WebElement
 import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
 import com.kms.katalon.core.annotation.AfterTestCase
@@ -50,8 +51,24 @@ class NewTestListener {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl(GlobalVariable.URL)
+		WebUI.navigateToUrl('https://practicesoftwaretesting.com/#/')
 		WebUI.maximizeWindow()
+		
+		 def responseLogin = WS.sendRequestAndVerify(findTestObject('API Repository/Login')) 
+		JsonSlurper slurper = new JsonSlurper()
+		Map parsedJson = slurper.parseText(responseLogin.getResponseText())
+		String passwordToken = parsedJson.access_token	
+		println("----------token---------------"+passwordToken)
+		WebUI.executeJavaScript("window.localStorage.setItem('auth-token','"+passwordToken+"')", null)
+		WebUI.waitForPageLoad(10)
+//		TestObject testObj = findTestObject('Object Repository/Page_Homepage/a_Home')
+//		WebElement element = WebUI.findWebElement(testObj, 5)
+//		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+
+//		println('Home clicked')
+		WebUI.click(findTestObject('Object Repository/Page_Homepage/icon_ToolShop'))
+		//WebUI.navigateToUrl('https://practicesoftwaretesting.com/#/account')
+		
 	}
 
 	/**

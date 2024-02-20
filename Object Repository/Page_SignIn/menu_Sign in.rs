@@ -6,11 +6,11 @@
    <elementGuidId>45c68a69-1813-4263-8013-106c7802f0f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@data-test='nav-sign-in']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

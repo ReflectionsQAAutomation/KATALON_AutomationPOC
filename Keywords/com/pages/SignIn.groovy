@@ -45,7 +45,7 @@ public class SignIn {
 	def static void ClickSignInLink() {
 		int aScreen = WebUI.getPageWidth()
 		println(aScreen)
-		if (aScreen < 1440) {
+		if (aScreen < 1000) {
 			println('Entered the resposive web ')
 			WebUI.delay(5)
 			println('before toggle ')

@@ -29,8 +29,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
  *
  */
 
-SignInPage.ClickSignInLink()
-SignInPage.EnterDetailsAndLogin(Email, Password)
+//SignInPage.ClickSignInLink()
+//SignInPage.EnterDetailsAndLogin(Email, Password)
 HomePage.ClickHomeButton()
 HomePage.ProductSeach(ProductName)
 HomePage.ClickProductName(ProductName)
@@ -40,5 +40,7 @@ AddToCartPage.CartCheckout()
 SignInPage.ClickSignInCheckoutButton()
 CheckoutPage.AddressProceedToCheckoutButton()
 CheckoutPage.PaymentAndDetails(PaymentMethod)
-SignOutPage.Sign_Out()
+WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
+	'Payment was successful')
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
 

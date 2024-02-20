@@ -45,16 +45,10 @@ public class Checkout {
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_accountName'),'testName')
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_accountNumber'),'123456789')
 				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))
-				WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
-						'Payment was successful')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
 				break
 			case "Cash on Delivery":
 				WebUI.selectOptionByValue(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/select_paymentMethod'),'2: Cash on Delivery', true)
 				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))
-				WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
-						'Payment was successful')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
 				break
 			case "Credit Card":
 				WebUI.selectOptionByValue(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/select_paymentMethod'),'3: Credit Card', true)
@@ -62,28 +56,18 @@ public class Checkout {
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_expirationDate'),'12/2024')
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_CVV'),'121')
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_cardHolderName'),'test')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))
-				WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
-						'Payment was successful')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
-
+				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))		
 				break
 			case "Buy Now Pay Later":
 				WebUI.selectOptionByValue(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/select_paymentMethod'),'4: Buy Now Pay Later', true)
 				WebUI.selectOptionByValue(findTestObject('Object Repository/Checkout/select_Choose your monthly installments'),'3', true)
 				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))
-				WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
-						'Payment was successful')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
 				break
 			case "Gift Card":
 				WebUI.selectOptionByValue(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/select_paymentMethod'),'5: Gift Card', true)
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_cardNumber'),'123456')
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_validationCode'),'121')
 				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))
-				WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
-						'Payment was successful')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
 				break
 			default:break
 		}

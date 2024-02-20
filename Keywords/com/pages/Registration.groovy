@@ -82,6 +82,7 @@ public class Registration {
 
 	//method to click on the Registration Button
 	def static void ClickRegisterButton() {
+		WebUI.delay(5)
 		WebUI.click(findTestObject('Object Repository/Page_Registration/buttonRegister'))
 	}
 

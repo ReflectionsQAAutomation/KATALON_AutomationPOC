@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/i_Sign out_fa fa-shopping-cart px-1",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/ul/li[5]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/i_Sign out_fa fa-shopping-cart px-1_position.png"
+    }
+  ]
 }
