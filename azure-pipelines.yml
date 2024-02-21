@@ -21,3 +21,8 @@ steps:
   inputs:
     version: '8.6.8'
     executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/Test Suite Collection_EndToEnd" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="873bd645-8caf-4061-9591-b3fa6c2abe46"'
+- download: current
+  artifact: WebApp
+  patterns: |
+    **/*.js
+    **/*.zip    
