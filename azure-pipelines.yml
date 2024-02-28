@@ -33,3 +33,4 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'Build Artifact'
     publishLocation: 'pipeline'
+  condition: succeededOrFailed()
