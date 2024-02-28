@@ -34,7 +34,15 @@ steps:
   condition: succeededOrFailed()
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '*\Reports'
+    targetPath: '**/Reports'
     publishLocation: 'pipeline'
     artifact: 'Reports'
+  condition: succeededOrFailed()
+
+- task: CopyFiles@2
+  inputs:
+    Contents: '*/Reports/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/s'
+    CleanTargetFolder: true
+    OverWrite: true
   condition: succeededOrFailed()
