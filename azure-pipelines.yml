@@ -28,11 +28,8 @@ steps:
     testResultsFiles: '**/JUnit_Report.xml'
   condition: succeededOrFailed()
 
-
-- task: CopyFiles@2
+- task: PublishPipelineArtifact@1
   inputs:
-    Contents: '**/Reports/*'
-    TargetFolder: 'pipeline'
-    CleanTargetFolder: true
-    OverWrite: true
-  condition: succeededOrFailed()
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'Build Artifact'
+    publishLocation: 'pipeline'
