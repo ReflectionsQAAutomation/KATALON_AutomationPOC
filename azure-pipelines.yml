@@ -25,5 +25,10 @@ steps:
   inputs:
     testResultsFormat: 'Junit'
     testRunTitle: 'Smoke_EndToEnd Test Log'
-    testResultsFiles: '**/*.html'
+    testResultsFiles: '**/JUnit_Report.xml'
+  condition: succeededOrFailed()
+- task: publishhtmlreport@1
+  inputs:
+    htmlType: 'genericHTML'
+    htmlPath: '$(Build.SourcesDirectory)/HTML_Report.html'
   condition: succeededOrFailed()
