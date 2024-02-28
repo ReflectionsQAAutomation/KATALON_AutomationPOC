@@ -27,16 +27,12 @@ steps:
     testRunTitle: 'Smoke_EndToEnd Test Log'
     testResultsFiles: '**/JUnit_Report.xml'
   condition: succeededOrFailed()
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: drop
-  condition: succeededOrFailed()
+
 
 - task: CopyFiles@2
   inputs:
     Contents: '**/Reports/*'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    TargetFolder: 'pipeline'
     CleanTargetFolder: true
     OverWrite: true
   condition: succeededOrFailed()
