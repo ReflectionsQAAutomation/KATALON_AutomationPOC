@@ -25,12 +25,12 @@ steps:
   inputs:
     testResultsFormat: 'Junit'
     testRunTitle: 'Smoke_EndToEnd Test Log'
-    testResultsFiles: '**/JUnit_Report.xml'
+    testResultsFiles: '**/Test Suite Collection_EndToEnd/**/JUnit_Report.xml'
   condition: succeededOrFailed()
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/s/Reports'
+    targetPath: '$(Pipeline.Workspace)/s/Reports/**/HTML_Report.html'
     artifact: 'Test Reports'
     publishLocation: 'pipeline'
   condition: succeededOrFailed()
