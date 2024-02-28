@@ -30,7 +30,7 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifact: 'Build Artifact'
+    targetPath: '$(Pipeline.Workspace)/s/Reports'
+    artifact: 'Test Reports'
     publishLocation: 'pipeline'
   condition: succeededOrFailed()
