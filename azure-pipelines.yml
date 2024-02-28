@@ -21,8 +21,9 @@ steps:
   inputs:
     version: '8.6.8'
     executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/Test Suite Collection_EndToEnd" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="873bd645-8caf-4061-9591-b3fa6c2abe46"'
-- task: DownloadPipelineArtifact@2
+- task: PublishTestResults@2
   inputs:
-    buildType: 'current'
-    targetPath: '$(Pipeline.Workspace)'
+    testResultsFormat: 'Junit'
+    testRunTitle: 'Smoke_EndToEnd Test Log'
+    testResultsFiles: '**/JUnit_Report.xml'
   condition: succeededOrFailed()
