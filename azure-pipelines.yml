@@ -25,5 +25,5 @@ steps:
   inputs:
     testResultsFormat: 'Junit'
     testRunTitle: 'Smoke_EndToEnd Test Log'
-    testResultsFiles: '**/JUnit_Report.xml'
+    testResultsFiles: '**/*.html'
   condition: succeededOrFailed()
