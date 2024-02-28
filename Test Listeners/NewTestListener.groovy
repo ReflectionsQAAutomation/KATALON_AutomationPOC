@@ -51,7 +51,7 @@ class NewTestListener {
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://practicesoftwaretesting.com/#/')
+		WebUI.navigateToUrl(GlobalVariable.URL)
 		WebUI.maximizeWindow()
 		
 		 def responseLogin = WS.sendRequestAndVerify(findTestObject('API Repository/Login')) 
