@@ -25,3 +25,4 @@ steps:
   inputs:
     buildType: 'current'
     targetPath: '$(Pipeline.Workspace)'
+  condition: succeededOrFailed()
