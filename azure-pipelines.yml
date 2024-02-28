@@ -29,12 +29,12 @@ steps:
   condition: succeededOrFailed()
 - task: publishhtmlreport@1
   inputs:
-    htmlType: 'genericHTML'
-    htmlPath: '**/HTML_Report.html'
+    htmlType: 'OtherComplexReport'
+    htmlPath: '**\HTML_Report.html'
   condition: succeededOrFailed()
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    targetPath: '*\Reports'
     publishLocation: 'pipeline'
     artifact: 'Reports'
   condition: succeededOrFailed()
