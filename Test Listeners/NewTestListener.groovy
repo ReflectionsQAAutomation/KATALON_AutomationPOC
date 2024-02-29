@@ -67,6 +67,7 @@ class NewTestListener {
 
 //		println('Home clicked')
 		WebUI.click(findTestObject('Object Repository/Page_Homepage/icon_ToolShop'))
+		WebUI.waitForPageLoad(10)
 		//WebUI.navigateToUrl('https://practicesoftwaretesting.com/#/account')
 		int aScreen = WebUI.getPageWidth()
 		println(aScreen)
