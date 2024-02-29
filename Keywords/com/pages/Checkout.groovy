@@ -26,6 +26,8 @@ public class Checkout {
 
 	//method to click on checkout and proceed button in checkout page
 	def static void AddressProceedToCheckoutButton() {
+		WebUI.setText(findTestObject('Object Repository/Checkout/input_Billing Address_state'),'Vienna')
+		WebUI.setText(findTestObject('Object Repository/Checkout/input_Billing Address_postcode'),'65484')
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Proceed to checkout_1_2'))
 	}
 

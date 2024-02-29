@@ -32,7 +32,7 @@ import org.openqa.selenium.WebElement as WebElement
 //WebUI.delay(3)
 //SignInPage.EnterDetailsAndLogin(Email, Password)
 //extracting the product details from the excel which is sepearted using commas(,) and adding into the cart
-CustomKeywords.'com.pages.support.checkResponsiveAndClickToggle'()
+
 for (def ProductName : Product.split(',')) {
     HomePage.ClickHomeButton()
 

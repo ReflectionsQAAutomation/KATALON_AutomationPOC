@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/i_Sign out_fa fa-shopping-cart px-1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SignIn/menu_Sign in",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u0027Sign in\u0027]/parent::*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/ul/li[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SignIn/menu_Sign in_idRelative.png"
     }
   ]
 }
