@@ -44,9 +44,11 @@ public class Home {
 			WebUI.delay(5)
 			println('before clicking Filters ')
 			WebUI.click(findTestObject('Page_Homepage/a_Filters'))
+			WebUI.waitForPageLoad(10)
 		}
 		WebUI.setText(findTestObject('Object Repository/Page_Homepage/input_SearchBox'), productName)
 		WebUI.click(findTestObject('Object Repository/Page_Homepage/buttonSearch'))
+		WebUI.waitForPageLoad(10)
 	}
 
 	/**
@@ -70,6 +72,7 @@ public class Home {
 	 *
 	 */
 	def static void ClickProductName(productName) {
+		WebUI.waitForPageLoad(10)
 		WebUI.click(findTestObject('Object Repository/Page_Homepage/searchResult'))
 	}
 }
