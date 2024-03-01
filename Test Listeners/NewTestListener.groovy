@@ -67,6 +67,7 @@ class NewTestListener {
 //		println('Home clicked')
 		WebUI.click(findTestObject('Object Repository/Page_Homepage/icon_ToolShop'))
 		WebUI.waitForPageLoad(10)
+		WebUI.delay(5)
 		//WebUI.navigateToUrl('https://practicesoftwaretesting.com/#/account')
 		int aScreen = WebUI.getPageWidth()
 		println(aScreen)
@@ -76,11 +77,11 @@ class NewTestListener {
 			println('before toggle ')
 			try {
 				WebUI.click(findTestObject('Page_Homepage/span_Hand Tools_navbar-toggler-icon'))
+				WebUI.delay(5)
 			} catch(Exception e) {
 				println(e)
 			}
 			println('clicked toggle icon ')
-			WebUI.delay(5)
 		}
 		
 	}

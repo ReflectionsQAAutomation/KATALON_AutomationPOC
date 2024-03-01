@@ -46,6 +46,7 @@ for (def ProductName : Product.split(',')) {
 }
 
 AddToCartPage.ClickShoppingCart()
+WebUI.delay(5)
 
 //extracting the product details from the excel which is sepearted using commas(,) and deleting from the cart
 for (def deleteItem : DeleteProduct.split(',')) {
