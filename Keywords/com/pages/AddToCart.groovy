@@ -41,6 +41,7 @@ public class AddToCart {
 
 	//method to click on checkout and proceed button in add to cart
 	def static void CartCheckout() {
+		WebUI.delay(5)
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Proceed to checkout'))
 		WebUI.waitForPageLoad(10)
 	}
