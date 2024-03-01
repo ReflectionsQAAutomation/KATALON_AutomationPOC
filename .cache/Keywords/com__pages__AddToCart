@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "A8FE5FC999E14BEFC69EEB118F707F8C",
+  "keywordFileContentHash": "689992AED42B50AFD3AE08ACF53B169A",
   "keywordClasses": [
     {
       "name": "com.pages.AddToCart",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
