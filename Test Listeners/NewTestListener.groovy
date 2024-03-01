@@ -50,9 +50,14 @@ class NewTestListener {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl(GlobalVariable.URL)
+		int aScreen = WebUI.getPageWidth()
+		println(aScreen)
+		if (!(aScreen < 1000)) {
 		WebUI.maximizeWindow()
+		}
 		
 		 def responseLogin = WS.sendRequestAndVerify(findTestObject('API Repository/Login')) 
 		JsonSlurper slurper = new JsonSlurper()
@@ -69,8 +74,7 @@ class NewTestListener {
 		WebUI.waitForPageLoad(10)
 		WebUI.delay(5)
 		//WebUI.navigateToUrl('https://practicesoftwaretesting.com/#/account')
-		int aScreen = WebUI.getPageWidth()
-		println(aScreen)
+		
 		if (aScreen < 1000) {
 			println('Entered the resposive web ')
 			WebUI.delay(5)
