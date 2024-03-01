@@ -70,5 +70,6 @@ public class SignIn {
 	//method to click on checkout and proceed button in signIn page
 	def static void ClickSignInCheckoutButton() {
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Proceed to checkout_1'))
+		WebUI.waitForPageLoad(10)
 	}
 }

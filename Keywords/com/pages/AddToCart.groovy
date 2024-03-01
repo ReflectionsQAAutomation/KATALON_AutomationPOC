@@ -36,11 +36,13 @@ public class AddToCart {
 	//method to navigate to the shopping cart
 	def static void ClickShoppingCart() {
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/i_Sign out_fa fa-shopping-cart px-1'))
+		WebUI.waitForPageLoad(10)
 	}
 
 	//method to click on checkout and proceed button in add to cart
 	def static void CartCheckout() {
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Proceed to checkout'))
+		WebUI.waitForPageLoad(10)
 	}
 
 	def static void DeleteItem(deleteItem) {
