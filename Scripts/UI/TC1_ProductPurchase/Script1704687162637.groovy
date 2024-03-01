@@ -43,5 +43,7 @@ CheckoutPage.PaymentAndDetails(PaymentMethod)
 WebUI.delay(5)
 WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
 	'Payment was successful')
+WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))
 WebUI.waitForPageLoad(10)
+WebUI.delay(5)
