@@ -27,6 +27,7 @@ public class Home {
 	//method to navigate to the home page by clicking on the Home link in the main menu
 	def static void ClickHomeButton() {
 		WebUI.click(findTestObject('Object Repository/Page_Homepage/a_Home'))
+		WebUI.waitForPageLoad(10)
 	}
 
 

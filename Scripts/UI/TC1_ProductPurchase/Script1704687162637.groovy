@@ -40,6 +40,7 @@ AddToCartPage.CartCheckout()
 SignInPage.ClickSignInCheckoutButton()
 CheckoutPage.AddressProceedToCheckoutButton()
 CheckoutPage.PaymentAndDetails(PaymentMethod)
+WebUI.waitForPageLoad(10)
 WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/txt_Payment was successful'),
 	'Payment was successful')
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm2'))

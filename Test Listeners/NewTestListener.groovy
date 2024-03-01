@@ -64,7 +64,6 @@ class NewTestListener {
 //		TestObject testObj = findTestObject('Object Repository/Page_Homepage/a_Home')
 //		WebElement element = WebUI.findWebElement(testObj, 5)
 //		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
-
 //		println('Home clicked')
 		WebUI.click(findTestObject('Object Repository/Page_Homepage/icon_ToolShop'))
 		WebUI.waitForPageLoad(10)
