@@ -29,7 +29,6 @@ public class AddToCart {
 	def static void AddtoCartButton() {
 		WebUI.waitForPageLoad(10)
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Add to cart'))
-		WebUI.delay(5)
 		WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/div_Product added to shopping cart'),'Product added to shopping cart.')
 		WebUI.delay(5)
 	}
