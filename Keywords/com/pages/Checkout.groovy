@@ -58,7 +58,7 @@ public class Checkout {
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_expirationDate'),'12/2024')
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_CVV'),'121')
 				WebUI.setText(findTestObject('Object Repository/Checkout/txt_cardHolderName'),'test')
-				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))		
+				WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Confirm'))
 				break
 			case "Buy Now Pay Later":
 				WebUI.selectOptionByValue(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/select_paymentMethod'),'4: Buy Now Pay Later', true)
