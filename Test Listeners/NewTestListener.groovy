@@ -60,7 +60,7 @@ class NewTestListener {
 		String passwordToken = parsedJson.access_token	
 		println("----------token---------------"+passwordToken)
 		WebUI.executeJavaScript("window.localStorage.setItem('auth-token','"+passwordToken+"')", null)
-		WebUI.waitForPageLoad(10)
+		WebUI.delay(5)
 //		TestObject testObj = findTestObject('Object Repository/Page_Homepage/a_Home')
 //		WebElement element = WebUI.findWebElement(testObj, 5)
 //		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
