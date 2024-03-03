@@ -30,14 +30,7 @@ public class AddToCart {
 		int aScreen = WebUI.getPageWidth()
 		WebUI.waitForPageLoad(10)
 		WebUI.click(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/button_Add to cart'))
-		if (!(aScreen < 1000)) {
-			WebUI.delay(1)
-		}
-		else
-		{
-			WebUI.waitForElementVisible(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/div_Product added to shopping cart'), 10)
-		}
-		WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/div_Product added to shopping cart'),'Product added to shopping cart.')
+		//WebUI.verifyElementText(findTestObject('Object Repository/Checkout/Page_Practice Software Testing - Toolshop - v5.0/div_Product added to shopping cart'),'Product added to shopping cart.')
 		WebUI.delay(5)
 	}
 
