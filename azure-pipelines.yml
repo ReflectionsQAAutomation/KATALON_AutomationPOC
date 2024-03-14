@@ -20,7 +20,7 @@ steps:
 - task: katalonTask@1
   inputs:
     version: '8.6.8'
-    executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/Test Suite Collection_EndToEnd" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="873bd645-8caf-4061-9591-b3fa6c2abe46"'
+    executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/Test Suite Collection_EndToEnd" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="8e69b787-3597-4859-be01-e5b8de2c5d56"'
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'Junit'
