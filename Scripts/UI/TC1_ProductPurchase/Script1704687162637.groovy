@@ -24,7 +24,7 @@ import com.pages.SignOut as SignOutPage
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 /**
- * Test Case: User adding the product to cart and checkout
+ * Test Case: User adding the product to cart and checkout function
  * Description: This testcase covers the End to end flow of user searching for a product,adding to cart and checking out 
  *
  */

@@ -47,7 +47,7 @@ WS.verifyMatch(jsonResponse.id, cart_Id, false)
 for(int n=0; n<3; n++)
 {
 responseAddedProducts = WS.sendRequestAndVerify(findTestObject('API Repository/AddProductsCart',[('productID'):(products[n])]))
-WS.verifyResponseStatusCode(responseAddedProducts, 201)
+WS.verifyResponseStatusCode(responseAddedProducts, 200)
 }
 // getting the details in the cart by calling GetCartDetails
 responseViewCart = WS.sendRequestAndVerify(findTestObject('API Repository/GetCartDetails'))
