@@ -17,10 +17,15 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+# - task: katalonTask@1
+#   inputs:
+#     version: '8.6.8'
+#     executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/Test Suite Collection_EndToEnd" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="8e69b787-3597-4859-be01-e5b8de2c5d56"'
 - task: katalonTask@1
   inputs:
     version: '8.6.8'
-    executeArgs: '-retry=0 -testSuiteCollectionPath="Test Suites/Test Suite Collection_EndToEnd" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="8e69b787-3597-4859-be01-e5b8de2c5d56"'
+    executeArgs: '-retry=0 -testSuitePath="Test Suites/APITestSuite" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -apiKey="8e69b787-3597-4859-be01-e5b8de2c5d56"'
+
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'Junit'
